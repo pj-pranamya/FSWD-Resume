@@ -1,0 +1,53 @@
+.projects-page {
+  padding: 40px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: 100vh;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.projects-page h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  font-weight: 700;
+  color: #34495e;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+  padding: 30px 25px;
+  width: 300px;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: default;
+}
+
+.project-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 25px 40px rgba(0, 0, 0, 0.18);
+}
+
+.project-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #2980b9;
+  border-bottom: 2px solid #2980b9;
+  padding-bottom: 8px;
+}
+
+.project-card p {
+  font-size: 1.05rem;
+  line-height: 1.5;
+  color: #555;
+}
